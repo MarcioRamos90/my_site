@@ -1,0 +1,140 @@
+body{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* MENU BAR */
+.nav ul {
+	position: fixed;
+	top: 40vh;
+	right: 5px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  background-color: #f1f1f1;
+}
+
+.nav li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.nav li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.nav li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+/* SECTION START*/
+
+section{
+	height: 100vh;
+	background-color: #333;
+	display: flex;
+	flex-direction: column;
+}
+
+#start > h1{
+	font-size: 5rem;
+
+	margin:50px;
+	font-family: 'Josefin Sans', sans-serif;
+	/*margin-bottom: 20px;*/
+	/*margin-top: 20px;*/
+}
+
+img{
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+#start > p{
+	display: block;
+	margin-top: 100px;
+	font-weight: 500;
+	letter-spacing: .1rem;
+}
+
+#start {
+	background-color: #666;
+}
+
+/* SECTION ABOUT*/
+
+#about{
+	background-color: #eee;
+	color: #333
+}
+
+#about > h1{
+	margin:80px;
+	font-size: 4rem;
+}
+
+#about p{
+	text-align: left;
+	letter-spacing: .1rem;
+	width: 800px;
+	margin: 0 auto;
+	font-weight: 700;
+	line-height: 30px;
+	margin-bottom: 100px
+}
+
+/* SECTION EXP*/
+
+#exp{
+	background-color: #fff;
+	color: #333
+}
+
+#exp .box-job{
+	text-align: left;
+	width: 800px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+#exp p{
+	margin: 0
+}
+
+/* Contacts */
+
+#contact {
+	text-align: left;
+	height: 50vh;
+}
+
+.contact-box{
+	margin: 0;
+}
+
+.list-contact{
+	list-style: none;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+
+/* General */
+
+h1 {
+	font-size: 80px
+}
+
+h3 {
+	margin: 0
+}
